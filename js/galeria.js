@@ -10,20 +10,6 @@ var galeria = {
 	animacionGaleria: "fade"
 }
 
-/*var galeria = {
-
-   imgGaleria: document.querySelectorAll("#galeria ul li img"),
-   rutaImagen: null,
-   cuerpoDom: document.querySelector("body"),
-   lightbox: null,
-   modal: null,
-   animacionGaleria: "fade"
-
-}
-*/
-
-
-
 
 /**************************************
 	Metodos

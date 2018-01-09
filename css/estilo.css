@@ -141,6 +141,35 @@ SLIDESHOW
 	padding-bottom:10px;
 }
 
+/******************
+	GALERIA
+******************/
+	
+	#galeria{
+		position:relative;
+		margin:auto;
+		width:100%;
+	}
+
+	#galeria ul{
+		padding:20px;
+	}
+
+	#galeria ul li{
+		padding:10px;
+		cursor:pointer;
+		transition:.6s;
+	}
+
+	#galeria ul li:hover{
+		transition:.6s;
+		opacity:.6;
+	}
+
+	#galeria ul li img{
+		width:100%;
+	}
+
 /*=============================================
 PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc
 =============================================*/
@@ -271,35 +300,9 @@ PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o ve
 	.col-xs-1{width: 8.33333333%;}
 	.col-xs-0{display:none;}
 
-	/*CABEZOTE*/
 	
-	header nav ul li a{
-		margin:0px;
-		font-size:14px;
-		border-bottom:1px solid #444;
-	}
 
-	header #logotipo img{
-		width:50%;
-	}
 
-	/*SLIDE*/
-
-	#slide ul li .textoSlide{
-		display:none;
-	}
-
-	#slide #retroceder{
-		top:40%;
-		font-size: 1em;
-		left:2%;
-	}
-
-	#slide #avanzar{
-		top:40%;
-		font-size: 1em;
-		right:2%;
-	}
 
 
 
